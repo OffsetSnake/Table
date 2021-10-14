@@ -9,22 +9,22 @@ td,th{
 	text-align: center;
 }
 
+tbody tr:nth-child(even){
+	background-color: #e5e4e2;
+}
+
+tfoot{
+	text-align: center;
+	background-color: #b6b6b4;	
+}
+
+tbody td:first-child{
+	text-align: left;
+	white-space: nowrap;
+	padding-right: 30px;
+}
+
 .caption{
 	padding: 10px;
 	background-color: #ccffff;
-}
-
-.footer{
-	text-align: center;
-	background-color: #b6b6b4;
-}
-
-.column-1{
-	text-align: left;
-	padding-right: 30px;
-	white-space: nowrap;
-}
-
-.row-color{
-	background-color: #e5e4e2;
 }
